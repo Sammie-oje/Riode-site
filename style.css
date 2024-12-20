@@ -1,0 +1,78 @@
+/* general styling */
+:root {
+  --secondary-color: #222222;
+  --white: #fff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+  font-size: 100%;
+  overflow-x: hidden;
+  justify-items: center;
+  /* align-content: center; */
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+nav {
+  display: flex;
+  max-width: 12vh;
+  width: 15vh;
+  padding-left: 4rem;
+}
+.nav__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+.search svg {
+  width: 20px;
+}
+
+/* section 1 */
+.section--1 {
+  display: flex;
+  align-items: center;
+}
+
+.btn-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 1.rem;
+  color: var(--white);
+  background-color: var(--secondary-color);
+  width: 190px;
+  height: 50px;
+  padding: 1rem 2rem;
+}
