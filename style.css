@@ -72,14 +72,6 @@ img {
   font-size: 2rem;
 }
 
-.payment-cart-details {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  border-left: 3px solid #aaa;
-  padding-left: 15px;
-}
-
 /* Third Section in the nav bar */
 .third-sec {
   display: flex;
@@ -97,6 +89,14 @@ img {
   width: 30px;
   height: 30px;
   cursor: pointer;
+}
+
+.payment-cart-details {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-left: 3px solid #aaa;
+  padding-left: 15px;
 }
 
 .price-total {
