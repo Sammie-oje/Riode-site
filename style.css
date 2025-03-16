@@ -42,11 +42,16 @@ img {
 .counties {
   border: none;
   background: none;
+  cursor: pointer;
+  &:focus {
+    border: none;
+  }
 }
 
 .currencies {
   border: none;
   background: none;
+  cursor: pointer;
 }
 
 .search {
@@ -70,6 +75,10 @@ img {
 .second-sec {
   font-weight: 900;
   font-size: 2rem;
+}
+
+.logo-container {
+  cursor: default;
 }
 
 /* Third Section in the nav bar */
