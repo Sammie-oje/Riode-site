@@ -1,0 +1,152 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --black: #333;
+  --font-color: #ddd;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* General styling for images */
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Nav - Bar */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 4em;
+  border-bottom: 2px solid #ddd;
+  box-shadow: 1px 0px 0px #aaa;
+}
+
+/* First Section in the nav - bar */
+.first-sec {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.counties {
+  border: none;
+  background: none;
+}
+
+.currencies {
+  border: none;
+  background: none;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search img {
+  width: 20px;
+  height: auto;
+}
+
+.user-input {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+/* Second Section in the nav - bar */
+.second-sec {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.payment-cart-details {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-left: 3px solid #aaa;
+  padding-left: 15px;
+}
+
+/* Third Section in the nav bar */
+.third-sec {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-svg {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.user-likes {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.price-total {
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+.added-cart {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+/* Footer Section */
+footer {
+  background: var(--black);
+}
+
+/* .footer-section {
+} */
+
+.image {
+  width: 200px;
+  height: 200px;
+  border: 2px solid var(--black);
+}
+
+.copyright-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 30px 0;
+  border-top: 2px solid #ddd;
+}
+
+.credit-card-logos {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
